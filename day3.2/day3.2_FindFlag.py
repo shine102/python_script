@@ -7,7 +7,6 @@ def main():
     flag = sys.argv[1]
     # Get the path to the current directory
     path = os.getcwd()
-    print(path)
     # Get the list of files in the current directory
     files = os.listdir(path)
     files = files[1:]
